@@ -98,7 +98,7 @@ class Editor extends React.Component<IProps> {
       <div>
         <ReactTags
           ref={(ref: any) => (this.ref = ref)}
-          placeholder="Select or Type"
+          placeholder="Use backspace to remove tags"
           tags={values}
           suggestions={suggestions}
           allowNew={true}
